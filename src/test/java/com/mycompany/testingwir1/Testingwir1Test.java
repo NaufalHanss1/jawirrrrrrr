@@ -23,9 +23,9 @@ public class Testingwir1Test {
    @Test
     public void testRandomIntInRange() {
         int min = 10;
-        int max = 20;
+        int max = 0;
 
-        int randomNumber = Testingwir1.getRandomInt(min, min);
+        int randomNumber = Testingwir1.getRandomInt(min, max);
 
         assertTrue(randomNumber >= min && randomNumber <= max, "Random integer should be within the specified range");
     }
