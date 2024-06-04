@@ -25,10 +25,19 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/NaufalHanss1/jawirrrrrrr</url>
+    </repository>
+  </distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.testingwir1.Testingwir1</exec.mainClass>
+        <sonar.organization>NaufalHanss1</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 </project>
