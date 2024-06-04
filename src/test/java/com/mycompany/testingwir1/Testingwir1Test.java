@@ -32,7 +32,7 @@ public class Testingwir1Test {
 
     @Test
     public void testRandomStringNotNull() {
-        int length = 5;
+        int length = 10;
 
         String randomString = Testingwir1.getRandomString(length);
 
